@@ -1,7 +1,12 @@
 ## Installation
-
 You can install this package via npm:
 
+step-1
+#### npm install colors 
+step-2
+#### npm install mongoose
+step-3
+#### npm install node-mongoose-connection
 ```bash ```
 npm install node-mongoose-connection
         or
