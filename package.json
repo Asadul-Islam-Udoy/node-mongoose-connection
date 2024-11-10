@@ -1,0 +1,22 @@
+{
+  "name": "node-mongoose-connection",
+  "version": "1.0.0",
+  "main": "dist/bundle.cjs",   
+  "module": "dist/bundle.esm.js", 
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "colors": "^1.4.0",
+    "mongoose": "^8.8.1",
+    "rollup": "^4.24.4"
+  }
+}
