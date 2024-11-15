@@ -1,6 +1,6 @@
 {
   "name": "node-mongoose-connection",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/bundle.cjs",   
   "module": "dist/bundle.esm.js", 
   "type": "module",
