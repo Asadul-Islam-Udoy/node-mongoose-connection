@@ -30,13 +30,13 @@ if you used this package method. you have to given the two paramitter
 ```js
 // Demo.....
 const MONGO_URL= 'mongodb://localhost:27017';
-const DADABASE_NAME = "my_first_database";
+const DATABASE_NAME = "my_first_database";
      or
 const MONGO_URL= process.env.MONGO_URL;
-const DADABASE_NAME = process.env.DADABASE_NAME;
+const DATABASE_NAME = process.env.DATABASE_NAME;
 
 // Demo..... Declear Mehtod
- MongooseConnection(MONGO_URL,DADABASE_NAME);
+ MongooseConnection(MONGO_URL,DATABASE_NAME);
 ```
 
 ## Or Usage 
@@ -49,14 +49,14 @@ const app = express();
 
 // Demo.....
 const MONGO_URL= 'mongodb://localhost:27017';
-const DADABASE_NAME = "my_first_database";
+const DATABASE_NAME = "my_first_database";
      or
 const MONGO_URL= process.env.MONGO_URL;
-const DADABASE_NAME = process.env.DADABASE_NAME;
+const DATABASE_NAME = process.env.DATABASE_NAME;
 
 
 // Demo..... Declear Mehtod
-MongooseConnection(MONGO_URL,DADABASE_NAME);
+MongooseConnection(MONGO_URL,DATABASE_NAME);
 
 
 //home server page
